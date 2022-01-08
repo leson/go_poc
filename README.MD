@@ -19,6 +19,8 @@ func main()  {
 ```bash
 go mod init github.com/leson/go_poc
 
+go mod tidy
+
 go run cmd/main.go
 ```
 

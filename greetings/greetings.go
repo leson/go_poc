@@ -10,6 +10,6 @@ import (
 func Hello(name string) string {
 	// Return a greeting that embeds the name in a message.
 	message := fmt.Sprintf("Hi, %v. Welcome!", name)
-	fmt.Sprintln(xstrings.WordCount(message))
+	fmt.Sprintln(xstrings.Len(message))
 	return message
 }
